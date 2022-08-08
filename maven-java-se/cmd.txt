@@ -1,0 +1,8 @@
+# generate application
+mvn archetype:generate -DgroupId=com.face.script -DartifactId=ETLScript -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+# build the package
+mvn clean package
+
+# run the build project
+java -jar ./target/fingerprint-0.0.1-SNAPSHOT.war

@@ -5,4 +5,4 @@ mvn spring-boot:run
 mvn clean package
 
 # run the build project
-java -jar ./target/fingerprint-0.0.1-SNAPSHOT.war
+java -jar ./target/ETLScript-1.0-SNAPSHOT.jar 
