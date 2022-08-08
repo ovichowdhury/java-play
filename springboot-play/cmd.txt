@@ -1,0 +1,8 @@
+# run the program
+mvn spring-boot:run
+
+# build the package
+mvn clean package
+
+# run the build project
+java -jar ./target/fingerprint-0.0.1-SNAPSHOT.war
