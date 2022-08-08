@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "[INFO] Hello World!" );
+        Hello h = new Hello();       
+
+        System.out.println( "[INFO] Hello World!");
+        h.sayHello();
+        System.out.println(h.add(5, 15));
     }
 }
